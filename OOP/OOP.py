@@ -34,7 +34,7 @@ class MyName:
         return cls("Anonymous")
     
     @staticmethod
-    def say_hello(message="Hello to everyone!"):
+    def say_hello(message="Hello man"):
         """Static method
         """
         return f"You say: {message}"
@@ -42,7 +42,7 @@ class MyName:
 
 print("Let's Start!")
 
-names = ("Bohdan", "Marta", None)
+names = ("Bohdan", "Marta","Nazar", None)
 all_names = {name: MyName(name) for name in names}
 
 for name, me in all_names.items():
